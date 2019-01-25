@@ -1,32 +1,92 @@
-.App {
+/* .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+ */
+ .header-color{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+ }
+.homepage-grid{
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  width:100%;
+  height: 100%;
+   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.avatar-img{
+  
+  height:250px;
+  padding-top:5em; 
+}
+.banner-text{
+  background-color: black;
+  opacity: .7;
+  width:75%;
+  margin:auto;
+  border-radius: 10px;
+}
+.banner-text h1{
+  font-size:66px;
+  font-weight: bold;
+  color:white;
+}
+.banner-text hr{
+  border-top:5px dotted white;
+  width:50%;
+  margin:auto;
+}
+.banner-text p{
+  color:white;
+  padding:1em;
+  font-size: 20px;
+}
+.social-links{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  width:50%;
+  margin:auto;
+}
+.social-links i {
+  color:white;
+  font-size:100px;
+  padding:10px;
+
+}
+.Projects-container{
+  display:flex;
+  flex-wrap: wrap;
+}
+.projectCards{
+  border:1px solid green;
+  min-width:350px;
+  margin: auto;
+}
+@media(min-width:450px){
+  .projectCards{
+    min-width:200px;
+
+  }
+}
+@media(min-width:300px){
+  .projectCards{
+    min-width:150px;
+  }
+}
+.cardActions{
+  width:100%;
+  display:flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: border-box;
 }
-
-.App-link {
-  color: #61dafb;
+.cardActions a{
+ padding-bottom: none;
+ margin-right:10px ; 
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardActions a i{
+  font-size:40px;
 }
