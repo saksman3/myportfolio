@@ -6,6 +6,7 @@ import Work from '../components/WorkExperience';
 import Education from '../containers/Education';
 import Projects from '../components/Projects';
 import Home from '../components/HomePage';
+import Contact from '../components/Contact';
 
 
 const AppRoutes = () => {
@@ -16,6 +17,7 @@ const AppRoutes = () => {
             <Route path="/work" component={Work}/>
             <Route path="/education" component={Education}/>
             <Route path="/project" component={Projects}/>
+            <Route path="/contact" component={Contact}/>
         </Switch>
     );
 };

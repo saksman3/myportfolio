@@ -11,6 +11,7 @@ const CustomLayout = (props) => {
                 <Link to="/education">Education</Link>
                 <Link to="/work">Previous Work</Link>
                 <Link to="/project">Projects</Link>
+                <Link to="/contact">ContactMe</Link>
             </Navigation>
         </Header>
         <Drawer title="Portfolio">
@@ -19,6 +20,7 @@ const CustomLayout = (props) => {
                 <Link to="/education">Education</Link>
                 <Link to="/work">Previous Work</Link>
                 <Link to="/project">Projects</Link>
+                <Link to="/contact">ContactMe</Link>
             </Navigation>
         </Drawer>
         <Content>

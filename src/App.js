@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './contact.css'
 import AppRoutes from './routes/AppRoutes';
 import CustomLayout from './containers/Layout';
 class App extends Component {
