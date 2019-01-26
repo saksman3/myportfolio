@@ -40,6 +40,10 @@
  .secondary p{
     font-size:15px;
  }
+ .secondary h4{
+    margin:0;
+    padding:0;
+ }
  @media(max-width:700px){
    .resume-avatar{
        height:150px;
@@ -104,8 +108,4 @@
      .experience-container h1{
          font-size: 23px;
      }
- }
- .secondary h4{
-    margin:0;
-    padding:0;
  }

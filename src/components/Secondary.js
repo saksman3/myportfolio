@@ -4,8 +4,8 @@ import {Grid, Cell} from 'react-mdl';
 export default class WorkExperience extends Component {
   render() {
     return (
-      <Grid>
-        <Cell col={4} className="secondary">
+      <Grid className="secondary">
+        <Cell col={4} >
           <p >{this.props.secondary.completionDate}</p>
         </Cell>
         <Cell col={8}>
