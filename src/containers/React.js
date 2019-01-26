@@ -21,6 +21,14 @@ export default class ReactProjects extends Component {
                     github:'http://guthub.com/saksman3/beer-app',
                     liveDemo:'http://my-beer-app.herokuapp.com'
                 }
+            },
+            {
+                title:'portfolio-app',
+                description:'Portfolio app illustrations using react-mdl components, css and react router',
+                url:{
+                    github:'http://guthub.com/saksman3/myportfolio',
+                    liveDemo:'https://sakhile-portfolio-app.herokuapp.com/'
+                }
             }
         ]
     }
