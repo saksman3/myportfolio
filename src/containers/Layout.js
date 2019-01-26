@@ -7,18 +7,14 @@ const CustomLayout = (props) => {
     <Layout>
         <Header title="Portfolio" scroll={false} className="header-color">
             <Navigation>
-                <Link to="/profile">Resume</Link>
-                <Link to="/education">Education</Link>
-                <Link to="/work">Previous Work</Link>
+                <Link to="/resume">Resume</Link>
                 <Link to="/project">Projects</Link>
                 <Link to="/contact">ContactMe</Link>
             </Navigation>
         </Header>
         <Drawer title="Portfolio">
             <Navigation>
-                <Link to="/profile">Profile</Link>
-                <Link to="/education">Education</Link>
-                <Link to="/work">Previous Work</Link>
+                <Link to="/resume">Resume</Link>
                 <Link to="/project">Projects</Link>
                 <Link to="/contact">ContactMe</Link>
             </Navigation>

@@ -3,11 +3,13 @@
 }
  */
  .header-color{
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
+/*   background: #833ab4;  
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
+  background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
  }
 .homepage-grid{
   background: #833ab4;  /* fallback for old browsers */
@@ -20,8 +22,10 @@
 }
 .avatar-img{
   
-  height:250px;
-  padding-top:5em; 
+  height:200px;
+  
+  border-radius: 100px;
+  
 }
 .banner-text{
   background-color: black;
@@ -29,16 +33,19 @@
   width:75%;
   margin:auto;
   border-radius: 10px;
+  padding:0px;
 }
 .banner-text h1{
-  font-size:66px;
+  font-size:60px;
   font-weight: bold;
   color:white;
+  padding: 0;
 }
 .banner-text hr{
   border-top:5px dotted white;
   width:50%;
   margin:auto;
+  padding:0;
 }
 .banner-text p{
   color:white;

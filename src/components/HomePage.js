@@ -7,12 +7,12 @@ export default class Profile extends Component {
         <Grid className="homepage-grid">
              <Cell col={12}>
                 <img
-                 src="https://media.licdn.com/dms/image/C5603AQHQhqzJb-g1uw/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=5ybWAHGYO2sFW7DwND1R95liYsDB8_SMLp-ruI_Gq20"
+                 src="https://scontent.fjnb1-1.fna.fbcdn.net/v/t1.0-9/40397985_990581931110059_5902450650108657664_n.jpg?_nc_cat=106&_nc_eui2=AeFw2F9y1W_Jp6WVF-AhIejkj_udO97nx6tE0kDD3pIQJJjnfK7OpqTKZ7uRIxv_wfeLadLhBDHZgC_J4fB573q4CLk7vCA9kBJKqiHTRS1CVQ&_nc_ht=scontent.fjnb1-1.fna&oh=42cf2d4eda833e0d3b0287e181838929&oe=5CB9DE58"
                  alt="avatar"
                 className="avatar-img"
                 />
                 <div className="banner-text">
-                   <h1>Full stack developer</h1>
+                   <h1 style={{marginBottom:'0px'}}>Full stack developer</h1>
                    <hr/>
                    <p>
                     HTML|CSS |Bootstrap|NodeJs | Python | React | Redux |Javascript|MySQL
