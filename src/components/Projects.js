@@ -41,9 +41,9 @@ export default class Projects extends Component {
     return (
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId)=>this.OnChange(tabId)} ripple>
-            <Tab>React</Tab>
-            <Tab>Python</Tab>
-            <Tab>MySQL</Tab>
+            <Tab style={{color:'white'}}>React</Tab>
+            <Tab style={{color:'white'}}>Python</Tab>
+            <Tab style={{color:'white'}}>MySQL</Tab>
         </Tabs>
         <section>
           <Grid>

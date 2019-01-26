@@ -15,7 +15,7 @@ export default class Contact extends Component {
               />
               <p className="contact-message">I am actively looking for people to connect, collaborate and share information and skills with ,perhaps if you have a project in mind or would like to meet me so we can have a cup of coffee while brainstorming then feel free to contact me using any of the contacts method listed.</p>
            </Cell>
-           <Cell col={6}>
+           <Cell col={6} style={{background:'white'}}>
               <h2>Contact Me</h2>
               <hr/>
                 <div className="contacts-list">
