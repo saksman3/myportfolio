@@ -7,7 +7,7 @@ export default class WorkExperience extends Component {
       <div>
         <Grid>
             <Cell col={4}>
-               <p>{this.props.training.duration}</p>
+               <p style={{fontSize:15}}>{this.props.training.duration}</p>
             </Cell>
             <Cell col={8}>
                 <h4 style={{marginTop:'0px'}}>{this.props.training.trainingProvider}</h4>
