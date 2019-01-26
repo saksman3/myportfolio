@@ -5,14 +5,14 @@ const CustomLayout = (props) => {
     return (
         <div className="demo-big-content">
     <Layout>
-        <Header title="Portfolio" scroll={false} className="header-color">
+        <Header title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll={false} className="header-color">
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/project">Projects</Link>
                 <Link to="/contact">ContactMe</Link>
             </Navigation>
         </Header>
-        <Drawer title="Portfolio">
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Portfolio</Link>}>
             <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/project">Projects</Link>
