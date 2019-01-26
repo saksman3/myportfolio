@@ -5,7 +5,7 @@ const CustomLayout = (props) => {
     return (
         <div className="demo-big-content">
     <Layout>
-        <Header title="Portfolio" scroll className="header-color">
+        <Header title="Portfolio" scroll={false} className="header-color">
             <Navigation>
                 <Link to="/profile">Profile</Link>
                 <Link to="/education">Education</Link>
