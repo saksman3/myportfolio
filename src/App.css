@@ -66,26 +66,38 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
   color:white;
   font-size:100px;
   padding:10px;
-
 }
 .Projects-container{
   display:flex;
   flex-wrap: wrap;
 }
 .projectCards{
-  border:1px solid green;
-  min-width:350px;
+ 
+  width:350px;
   margin: auto;
 }
-@media(min-width:450px){
+@media(max-width:700px){
   .projectCards{
-    min-width:200px;
-
+    width:150px;
+    margin-bottom: 10px;
+  }
+  .social-links i {
+    color:white;
+    font-size:50px;
+    padding:5px;
+  }
+  .banner-text h1{
+    font-size:30px;
   }
 }
 @media(min-width:300px){
   .projectCards{
-    min-width:150px;
+    width:150px;
+  }
+  .social-links i {
+    color:white;
+    font-size:50px;
+    padding:5px;
   }
 }
 .cardActions{

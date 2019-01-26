@@ -18,16 +18,16 @@ export default class Profile extends Component {
                     HTML|CSS |Bootstrap|NodeJs | Python | React | Redux |Javascript|MySQL
                    </p>
                    <div className="social-links">
-                      <a href="http://google.com"  rel="noopener noreferrer" target="_blank">
+                      <a href="https://za.linkedin.com/in/sakhile-sibuyi-795548112"  rel="noopener noreferrer" target="_blank">
                       <i class="fa fa-linkedin-square"></i>
                       </a>
 
                       {/*twitter*/}
-                      <a href="http://google.com"  rel="noopener noreferrer" target="_blank">
+                      <a href="https://twitter.com/sakhilesibuyi"  rel="noopener noreferrer" target="_blank">
                       <i class="fa fa-twitter-square"></i>
                       </a>
                       {/* GitHub */}
-                      <a href="http://google.com"  rel="noopener noreferrer" target="_blank">
+                      <a href="https://github.com/saksman3/"  rel="noopener noreferrer" target="_blank">
                         <i class="fa fa-github"></i>
                       </a>  
                    </div>
