@@ -9,10 +9,14 @@
     font-size: 25px;
     font-weight: lighter;
     font-family: 'Courier New', Courier, monospace;
+    color:gray;
 }
 .bio-grid p{
    font-size:20px;
    font-weight: lighter;
+ }
+ .contact-section{
+     text-align: right;
  }
  .contact-section p{
      font-size: 20px;
@@ -22,4 +26,86 @@
  }
  h5{
      color:rgb(231, 90, 8);
+ }
+ .tertiary{
+    margin-top:0px;
+ }
+ .tertiary h4{
+     margin:0px;
+ }
+ .resume-avatar{
+    height:200px;
+    border-radius:100px;
+ }
+ .secondary p{
+    font-size:15px;
+ }
+ @media(max-width:700px){
+   .resume-avatar{
+       height:150px;
+   }
+   .profile-left-col h2{
+       font-size:20px;
+       margin:2px;
+
+   }
+   .job-description{
+    font-size: 10px;
+    margin-top:2px;
+    color:white;
+    }
+    .contact-section{
+        text-align: left;
+    }
+    .contact-section p{
+        font-size:12px;
+        
+    }
+    .contact-section h4{
+        font-size:15px;
+        margin:0px;
+        padding:0px;
+    }
+   
+    .bio-grid p{
+        font-size:10px;
+        font-weight: lighter;
+        margin :0;
+        padding:0;
+    }
+    .education h1{
+        font-size:30px;
+        color:red;
+        margin:0px;
+    }
+    .education h2{
+        font-size:22px;
+        color:red;
+        margin:0px;
+    }
+    .tertiary h4{
+        font-size:15px;
+    }
+    .tertiary p{
+        font-size: 10px;
+        padding: 0px;
+        margin:0px;
+    }
+    .secondary p{
+        font-size:10px;
+        margin:0px;
+        padding: 0px;
+     }
+     .secondary h4{
+       font-size:15px;
+       margin-top:0px;
+       padding:0px;
+     }
+     .experience-container h1{
+         font-size: 23px;
+     }
+ }
+ .secondary h4{
+    margin:0;
+    padding:0;
  }

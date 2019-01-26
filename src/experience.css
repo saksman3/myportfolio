@@ -1,6 +1,13 @@
 .company-description{
     font-family: 'Courier New', Courier, monospace;
     font-size: 2em;
-    font-style: oblique;
-    
+    font-style: oblique;   
+}
+@media(max-width:700px){
+    .company-description {
+        font-size:1em;
+    }
+    .work-duties{
+        display:none
+    }
 }

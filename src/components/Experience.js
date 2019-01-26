@@ -10,7 +10,7 @@ const Experience = (props) => {
              </Cell>
              <Cell col={8}>
               <p className="company-description">{props.exp.company} {props.exp.duration}</p>
-              <ul>
+              <ul className = "work-duties">
               {
                   props.exp.duties.map((duty,index)=>{
                       return (

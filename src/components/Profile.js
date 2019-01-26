@@ -12,6 +12,7 @@ export default class Profile extends Component {
         <Grid>
            
           <Cell className="profile-right-col" col={8} style={{width:'70%',margin:'auto'}}>
+          
           <About/>
               <Education/>
               <hr style={{borderTop:'5px solid red'}}/>

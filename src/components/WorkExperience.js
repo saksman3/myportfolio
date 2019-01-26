@@ -53,7 +53,7 @@ export default class WorkExperience extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="experience-container">
         <h1>Work Experience</h1>
         {
           this.state.workExperience.map((exp,index)=>{

@@ -25,7 +25,7 @@ export default class Education extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="education">
         <h1>Education</h1>
          <h2>Tertiary</h2>
           {
