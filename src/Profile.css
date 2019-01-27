@@ -1,10 +1,12 @@
 .profile-right-col{
     background:rgb(25, 43, 48);
-    border:1px solid red;
     color:white;
     padding:2em;
+    border:2px solid red;
+   
     
 }
+
 .job-description{
     font-size: 25px;
     font-weight: lighter;
@@ -36,6 +38,11 @@
  .resume-avatar{
     height:200px;
     border-radius:100px;
+  
+ }
+ .avatar-container{
+   width:80%;
+   margin:auto;
  }
  .secondary p{
     font-size:15px;
@@ -44,7 +51,17 @@
     margin:0;
     padding:0;
  }
+ .name-text h2{
+     padding-top: 1px;
+     width: 80%;
+    }
  @media(max-width:700px){
+    .name-text{
+        padding-top: 1px;
+        width: 80%;
+        
+        margin:auto;
+    }
    .resume-avatar{
        height:150px;
    }
@@ -108,4 +125,17 @@
      .experience-container h1{
          font-size: 23px;
      }
+     .profile-right-col[style]{
+        width:100% !important;
+        margin:0px !important;
+        padding:1em;
+        
+    }
+    .profile-container{
+        margin-top:50px;
+    }
+    .category-tabs{
+        margin-top:15%;
+      }
  }
+ 

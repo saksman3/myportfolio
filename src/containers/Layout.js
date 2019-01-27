@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 const CustomLayout = (props) => {
     return (
         <div className="demo-big-content">
-    <Layout>
+    <Layout style={{color:'white'}}>
         <Header title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll={false} className="header-color">
             <Navigation>
                 <Link to="/resume">Resume</Link>
@@ -12,6 +12,7 @@ const CustomLayout = (props) => {
                 <Link to="/contact">ContactMe</Link>
             </Navigation>
         </Header>
+        
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Portfolio</Link>}>
             <Navigation>
                 <Link to="/resume">Resume</Link>

@@ -3,7 +3,7 @@ import {Grid, Cell} from 'react-mdl'
 export default class Profile extends Component {
   render() {
     return (
-      <div style={{width:'100%',margin:'auto'}}>
+      <div className="homepage-wrapper">
         <Grid className="homepage-grid">
              <Cell col={12}>
                 <img

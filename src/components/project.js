@@ -4,7 +4,7 @@ import {Card, CardMenu, CardActions, CardText, CardTitle, IconButton} from 'reac
 const project = (props) => {
     return (
         
-        <Card className="projectCards"shadow={5}>
+        <Card className="projectCards" shadow={5}>
            <CardTitle style={{color:`${props.textColor}`,height:'176px',background:`url(${props.logo}) center / cover` }}>
               {props.project.title}
            </CardTitle>

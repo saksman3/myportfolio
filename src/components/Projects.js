@@ -30,10 +30,7 @@ export default class Projects extends Component {
       );  
       default:
       return(
-        
-            
             <ReactProjects/>
-        
       );
     }
   }
@@ -41,9 +38,9 @@ export default class Projects extends Component {
     return (
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId)=>this.OnChange(tabId)} ripple>
-            <Tab style={{color:'white'}}>React</Tab>
-            <Tab style={{color:'white'}}>Python</Tab>
-            <Tab style={{color:'white'}}>MySQL</Tab>
+            <Tab style={{color:'black'}}>React</Tab>
+            <Tab style={{color:'black'}}>Python</Tab>
+            <Tab style={{color:'black'}}>MySQL</Tab>
         </Tabs>
         <section>
           <Grid>

@@ -8,10 +8,10 @@ export default class Profile extends Component {
   
   render() {
     return (
-      <div>
+      <div className="profile-container">
         <Grid>
            
-          <Cell className="profile-right-col" col={8} style={{width:'70%',margin:'auto'}}>
+          <Cell  col={8} className="profile-right-col" style={{width:'80%', margin:'auto'}}>
           
           <About/>
               <Education/>
