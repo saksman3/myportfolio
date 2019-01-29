@@ -19,13 +19,13 @@ export default class Projects extends Component {
       case 1:  
         return(
           <div>
-          <h1>Python.</h1>
+          <h1>Will be uploaded soon!</h1>
           </div>
         );
       case 2:
       return(
         <div>
-        <h1>Mysql Projects</h1>
+        <h1>To be uploaded soon.</h1>
         </div>
       );  
       default:
@@ -40,7 +40,7 @@ export default class Projects extends Component {
         <Tabs activeTab={this.state.activeTab} onChange={(tabId)=>this.OnChange(tabId)} ripple>
             <Tab style={{color:'black'}}>React</Tab>
             <Tab style={{color:'black'}}>Python</Tab>
-            <Tab style={{color:'black'}}>MySQL</Tab>
+            <Tab style={{color:'black'}}>Nodejs</Tab>
         </Tabs>
         <section>
           <Grid>
