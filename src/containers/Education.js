@@ -11,10 +11,24 @@ export default class Education extends Component {
         type:'National Diploma'
       },
       {
-        trainingProvider:'IBM Cognitive',
-        duration:'1 week',
+        trainingProvider:'IBM Cognitive Class',
+        duration:'(April 2018)',
         course:'HTML5 and CSS3',
         type:'Certificate'
+      },
+      {
+        trainingProvider:'IBM Cognitive Class',
+        duration:'(April 2018)',
+        course:'API',
+        type:'Certificate',
+        url:'https://www.youracclaim.com/badges/3913a206-5735-477d-a672-fee24ad4c805/linked_in_profile'
+      },
+      {
+        trainingProvider:'IBM Cognitive Class',
+        duration:'(April 2018)',
+        course:'SQL and Relational Databases',
+        type:'Certificate',
+        url:'https://courses.cognitiveclass.ai/certificates/15d604dffe4d4fdbadb6a98eca0bde19'
       }
     ],
     secondary:{
